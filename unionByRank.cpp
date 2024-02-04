@@ -62,15 +62,15 @@ int main()
     ds.unionByRank(5, 6);
 
     if (ds.findUParent(3) == ds.findUParent(7))
-        cout << " Same" << endl;
+        cout << " Same " << endl;
     else
-        cout << " Not Same" << endl;
+        cout << " Not Same " << endl;
 
     ds.unionByRank(3, 7);
     if (ds.findUParent(3) == ds.findUParent(7))
-        cout << " Same" << endl;
+        cout << " Same " << endl;
     else
-        cout << " Not Same" << endl;
+        cout << " Not Same " << endl;
 
     return 0;
 }
